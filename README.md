@@ -2,6 +2,8 @@
 
 A native macOS player for YouTube Music, where every song becomes a galaxy.
 
+![Drift's Now page: a music video drawn in stars, with the words of the song cut out of the bright picture](docs/screenshots/now-clip.webp)
+
 Drift wraps the real YouTube Music web app in a fast native interface written in Rust with
 [GPUI](https://www.gpui.rs), and draws music-reactive visuals on the GPU with [wgpu](https://wgpu.rs):
 a galaxy made from each song's cover art, lyrics spelled out in stars, music videos turned into
@@ -28,6 +30,8 @@ particles, a living desktop wallpaper and a Dynamic Island around the MacBook no
 - **Dynamic Island.** Cover art, a level meter and a glow in the colors of the cover, around the
   MacBook notch.
 - **Full-screen lyrics**, synced to the song.
+
+![An artist page in Drift, over the galaxy of the playing song](docs/screenshots/artist.webp)
 
 ## Requirements
 

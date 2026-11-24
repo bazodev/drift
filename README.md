@@ -35,6 +35,21 @@ particles, a living desktop wallpaper and a Dynamic Island around the MacBook no
 - A Mac with Metal. Apple silicon is recommended.
 - To build: Rust 1.88 or later and the Xcode command line tools.
 
+## Install
+
+Download `Drift.dmg` from the [latest release](https://github.com/bazodev/drift/releases/latest), open it
+and drag Drift to Applications. Releases are built for Apple silicon.
+
+Releases are signed ad hoc and not notarized by Apple, so macOS blocks the first launch of a downloaded
+copy. Open System Settings, then Privacy & Security, and choose **Open Anyway** for Drift, or clear the
+download flag once:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Drift.app
+```
+
+Time-synced lyrics and music videos as particles are off at first; turn them on in Drift's Settings.
+
 ## Building
 
 ```sh
